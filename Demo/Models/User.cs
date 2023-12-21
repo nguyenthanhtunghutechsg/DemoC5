@@ -21,6 +21,22 @@ namespace Demo.Models
 			get { return name; }
 			set { name = value; }
 		}
+		private string faculty;
+
+		public string Faculty
+		{
+			get { return faculty; }
+			set { faculty = value; }
+		}
+		private string email;
+
+		public string Email
+		{
+			get { return email; }
+			set { email = value; }
+		}
+
+
 
 
 	}
